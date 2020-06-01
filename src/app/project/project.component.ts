@@ -21,9 +21,7 @@ export class ProjectComponent implements OnInit {
       { name: '/../../assets/img/thumb7.jpg',title:'7',info:'7'},
       { name: '/../../assets/img/thumb8.jpg',title:'8',info:'8'},
       { name: '/../../assets/img/thumb9.jpg',title:'9',info:'9'},
-      { name: '/../../assets/img/thumb10.jpg',title:'10',info:'10'},
-      { name: '/../../assets/img/thumb11.jpg',title:'11',info:'11'},
-      { name: '/../../assets/img/thumb12.jpg',title:'12',info:'12' },
+      { name: '/../../assets/img/thumb10.jpg',title:'10',info:'10'}
     ]
    }
 

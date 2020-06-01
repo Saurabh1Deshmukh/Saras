@@ -1,15 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import bootstrap from "bootstrap";
 import { FooterComponent } from './footer/footer.component';
 import { ProjectComponent } from './project/project.component';
-import { OfficeComponent } from './office/office.component';
-import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
+import { ServicesComponent } from './services/services.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +15,9 @@ import { ContactComponent } from './contact/contact.component';
     HeaderComponent,
     FooterComponent,
     ProjectComponent,
-    OfficeComponent,
-    TeamComponent,
-    ContactComponent
+    ContactComponent,
+    ServicesComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-<div class="container" style="margin-top: 125px;">
+<div class="container">
   <div id="carousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li *ngFor="let item of items,let i = index" data-target="#carousel" class="{{ (i == 0) ? 'active' : '' }}" attr.data-slide-to="{{i}}"></li>
@@ -7,7 +7,7 @@
       <div class="carousel-item"
       class="carousel-item" *ngFor="let item of items let i = index" [ngClass]="{'active' : i == 0}">
       <img src="{{ item.name }}" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-ms-block">
           <h1>{{ item.title }}</h1>
           <p>
             {{ item.info }}

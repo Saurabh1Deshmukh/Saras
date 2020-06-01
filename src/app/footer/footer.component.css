@@ -1,6 +1,9 @@
 footer {
-  padding: 1rem;
   text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  margin-top: 10%;
 }
 .fa {
   padding: 10px;
