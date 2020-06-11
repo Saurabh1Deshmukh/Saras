@@ -1,9 +1,0 @@
-.carousel, .carousel-inner, .carousel-inner > .item{
-  height:100%;
-  }
-
-body .carousel-inner > .item > img{
-  height: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  }
