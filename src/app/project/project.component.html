@@ -3,9 +3,8 @@
   <ol class="carousel-indicators">
     <li *ngFor="let item of items,let i = index" data-target="#carousel" class="{{ (i == 0) ? 'active' : '' }}" attr.data-slide-to="{{i}}"></li>
   </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item"
-      class="carousel-item" *ngFor="let item of items let i = index" [ngClass]="{'active' : i == 0}">
+    <div class="carousel-inner img-fluid">
+      <div class="carousel-item" *ngFor="let item of items let i = index" [ngClass]="{'active' : i == 0}">
       <img src="{{ item.name }}" class="mw-100">
         <div class="carousel-caption d-none d-ms-block">
           <h1>{{ item.title }}</h1>
