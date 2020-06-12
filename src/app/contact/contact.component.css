@@ -32,91 +32,11 @@
    color: white;
  }
 
- .fa-youtube {
-   background: #bb0000;
-   color: white;
- }
-
  .fa-instagram {
    background: #125688;
    color: white;
  }
 
- .fa-pinterest {
-   background: #cb2027;
-   color: white;
- }
-
- .fa-snapchat-ghost {
-   background: #fffc00;
-   color: white;
-   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
- }
-
- .fa-skype {
-   background: #00aff0;
-   color: white;
- }
-
- .fa-android {
-   background: #a4c639;
-   color: white;
- }
-
- .fa-dribbble {
-   background: #ea4c89;
-   color: white;
- }
-
- .fa-vimeo {
-   background: #45bbff;
-   color: white;
- }
-
- .fa-tumblr {
-   background: #2c4762;
-   color: white;
- }
-
- .fa-vine {
-   background: #00b489;
-   color: white;
- }
-
- .fa-foursquare {
-   background: #45bbff;
-   color: white;
- }
-
- .fa-stumbleupon {
-   background: #eb4924;
-   color: white;
- }
-
- .fa-flickr {
-   background: #f40083;
-   color: white;
- }
-
- .fa-yahoo {
-   background: #430297;
-   color: white;
- }
-
- .fa-soundcloud {
-   background: #ff5500;
-   color: white;
- }
-
- .fa-reddit {
-   background: #ff5700;
-   color: white;
- }
-
- .fa-rss {
-   background: #ff6600;
-   color: white;
- }
 
  #loader-wrapper {
    position: fixed;
@@ -169,46 +89,6 @@
      100% {height:5px;transform:translateY(0px);background:#ee2438;}
  }
 
-
- /***
-
- ====================================================================
-   Click To Top
- ====================================================================
-
-  ***/
- .scroll-top {
-   width:45px;
-   height:45px;
-   position: fixed;
-   bottom: 52px;
-   right: 80px;
-   z-index: 9999;
-   text-align: center;
-   color:#fff;
-   font-size: 20px;
-   display: none;
- }
- .scroll-top:after {
-   position: absolute;
-   z-index: -1;
-   content: '';
-   top: 100%;
-   left: 5%;
-   height: 10px;
-   width: 90%;
-   opacity: 1;
-   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
-   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
- }
- /***
-
- ====================================================================
-   Global Settings
- ====================================================================
-
-  ***/
-
   body {
    font-family: 'Raleway', sans-serif;
    font-weight: normal;
@@ -243,11 +123,7 @@
    content: '';
    clear: both;
   }
- .tran3s,.theme-main-menu .navbar-nav>li a,#project-section .project-gallery .single-img .opacity,
- #team-section .team-member-wrapper .single-team-member .member-name h6,
- #team-section .team-member-wrapper .single-team-member .member-name p,
- #team-section .team-member-wrapper .single-team-member .member-name ul,
- #our-client .owl-theme .owl-dots .owl-dot span {
+ .tran3s {
    -webkit-transition: all .3s ease-in-out;
       -moz-transition: all .3s ease-in-out;
        -ms-transition: all .3s ease-in-out;
@@ -292,48 +168,13 @@
    width: 75%;
    margin: 60px auto 0 auto;
  }
- .p-color,.theme-main-menu .navbar-nav>li.active>a,
- .theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a,
- #service-section .single-service-content:hover .icon-heading .icon,
- #service-section .single-service-content:hover .icon-heading h6 a,
- #pricing-section .single-price-table a:hover,#blog-section .single-news-item .img a,
- #blog-section .single-news-item:hover .post p a,#blog-section .single-news-item .post h6:hover a,
- #contact-section .contact-address-content .left-side ul li:hover .icon,
- #contact-section .send-message form button:hover,.inner-page-banner .opacity ul li:last-child,
- .blog-details-page aside .sidebar-news-list ul li a i,.monthly-header-title,
- .blog-details-page aside .sidebar-news-list ul li a:hover,.blog-details-page aside .sidebar-archives ul li a i,
- .blog-details-page aside .sidebar-archives ul li a:hover,.blog-details-page aside .sidebar-archives ul li a.active,
- .blog-details-page aside .sidebar-news-list ul li a.active,.recent-single-post .post a:hover,
- .sidebar-tags ul li a:hover,.blog-details-post-wrapper .list-img-wrapper ul li a i,
- .blog-details-post-wrapper .list-img-wrapper ul li a:hover,.blog-details-post-wrapper .post-comment form button:hover,
- .blog-details-post-wrapper .post-share-area .share li a:hover,.theme-main-menu.navbar .nav>li ul li a:hover,
- .blog-details-post-wrapper .post-share-area .share li a.active {
+ .icon-heading .icon,.icon-heading h6 a {
    color:#d73e4d;
  }
- .p-color-bg,.theme-title h2:before,#about-us .single-about-content:hover .icon,
- #skill-section .codeconSkillbar .skillBar,#our-client .owl-theme .owl-dots .owl-dot.active span,
- #our-client .owl-theme .owl-dots .owl-dot:hover span,
- .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
+ .p-color-bg {
    background: #d73e4d;
  }
- .banner .project-button,#about-us .icon,#about-us .single-about-content a.more,
- #service-section .single-service-content:hover,#project-section .project-menu ul li.active,
- #project-section .project-menu ul li:hover,.page-middle-banner .opacity a,
- #team-section .team-member-wrapper .single-team-member .img .opacity h4,#pricing-section .single-price-table a,
- #our-client .owl-theme .owl-dots .owl-dot.active span, #our-client .owl-theme .owl-dots .owl-dot:hover span,
- #contact-section .contact-address-content .left-side ul li .icon,#contact-section .send-message form button,
- .sidebar-tags ul li a:hover,.blog-details-post-wrapper .post-comment form button,
- .blog-details-post-wrapper .post-comment textarea:focus,.blog-details-post-wrapper .post-comment input:focus {
-   border-color:#d73e4d;
-   border-style: solid;
- }
 
- /***
- ====================================================================
-   Contact Section
- ====================================================================
-
-  ***/
  #contact-section .contact-address-content h2 {
    margin: 95px 0 35px 0;
  }
@@ -408,13 +249,6 @@
    background: #fff;
  }
 
- /***
-
- ====================================================================
-   Footer
- ====================================================================
-
-  ***/
  footer {
    margin: 100px 0 0 0;
    background: #1e1e1e;

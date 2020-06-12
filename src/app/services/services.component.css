@@ -1,19 +1,25 @@
-.all-browsers {
-  margin: 0;
-  padding: 5px;
-  background-color: lightgray;
+#profile-section .profile-content h2 {
+  margin: 95px 0 35px 0;
 }
 
-.all-browsers > h1, .browser {
-  margin: 10px;
-  padding: 5px;
-}
+p {line-height: 26px;}
 
-.browser {
-  background: white;
-}
+h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
+  h1,h2,h3,h4,h5,h6 {color:#292929; text-transform: uppercase;font-weight: 700;}
+  h1 {font-size: 48px;}
+  h2 {font-size: 36px;}
+  h3 {font-size: 28px;}
+  h4 {font-size: 24px;}
+  h5 {font-size: 22px;}
+  h6 {font-size: 18px;}
+  p {line-height: 26px;}
+  ul {list-style-type: none;}
+  a {text-decoration: none; display: inline-block;}
+  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
+  img {max-width: 100%; display: block;}
 
-.browser > h2, p {
-  margin: 4px;
-  font-size: 90%;
-}
+  #profile-section .profile-content h2 {
+    margin: 95px 0 35px 0;
+  }
+
+  .clear-fix { clear:both;}
